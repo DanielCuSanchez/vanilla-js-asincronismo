@@ -1,0 +1,34 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "Estructuras basicas para entender el asincronismo en javascript",
+  "main": "index.js",
+  "scripts": {
+    "callback": "nodemon ./src/callback/index.js",
+    "promise": "nodemon ./src/promise/index.js",
+    "async": "nodemon ./src/async/index.js",
+    "callback:challenge": "nodemon ./src/callback/challenge.js",
+    "promise:challenge": "nodemon ./src/promise/challenge.js",
+    "async:challenge": "nodemon ./src/async/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielCuSanchez/asincronismo-js.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promesas",
+    "async",
+    "await"
+  ],
+  "author": "Daniel Cu Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielCuSanchez/asincronismo-js/issues"
+  },
+  "homepage": "https://github.com/DanielCuSanchez/asincronismo-js#readme",
+  "dependencies": {
+    "nodemon": "^2.0.3",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
